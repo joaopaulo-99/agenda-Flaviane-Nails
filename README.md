@@ -1,116 +1,110 @@
-# Agenda Flaviane Nails
+#  Agenda Flaviane Nails
 
-## 📖 Descrição
-
-A Agenda Flaviane Nails é um aplicativo mobile desenvolvido em React Native para auxiliar no gerenciamento de agendamentos de clientes de manicure. O sistema permite que os usuários realizem agendamentos, consultem horários disponíveis, editem informações pessoais e entrem em contato via WhatsApp.
+Aplicativo mobile para gerenciamento de agendamentos de uma manicure, desenvolvido em **React Native**. Permite que clientes agendem horários de forma simples e rápida, e que a administradora gerencie toda a agenda em um único lugar.
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
-Facilitar o processo de agendamento de serviços, proporcionando uma experiência simples, rápida e organizada para os clientes.
-
----
-
-## ✨ Funcionalidades
-
-- Login de usuário
-- Cadastro e edição de perfil
-- Agendamento de serviços
-- Seleção de datas e horários disponíveis
-- Visualização de agendamentos
-- Edição de agendamentos
-- Exclusão de agendamentos
-- Integração com WhatsApp
-- Exibição automática dos dados do cliente
-- Controle de horários ocupados
+Substituir o controle manual de horários (caderno, WhatsApp, anotações soltas) por um app organizado, evitando conflitos de horário e facilitando a comunicação entre cliente e profissional.
 
 ---
 
-## 📱 Telas do Aplicativo
+##  Funcionalidades
 
-### Cliente
+**Para o cliente:**
+- Login e cadastro de perfil
+- Edição de informações pessoais
+- Visualização de serviços disponíveis
+- Agendamento com seleção de data e horário
+- Consulta, edição e exclusão dos próprios agendamentos
+- Contato direto via WhatsApp
 
-- Login
-- Tela Inicial
-- Meu Perfil
-- Serviços
-- Novo Agendamento
-- Meus Agendamentos
-
-### Administrador
-
-- Dashboard
-- Gerenciamento de Agendamentos
+**Para a administradora:**
+- Dashboard com visão geral dos agendamentos
+- Gerenciamento completo da agenda (criar, editar, cancelar)
+- Controle automático de horários já ocupados
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Telas do Aplicativo
+
+| Cliente | Administrador |
+|---|---|
+| Login | Dashboard |
+| Tela Inicial | Gerenciamento de Agendamentos |
+| Meu Perfil | |
+| Serviços | |
+| Novo Agendamento | |
+| Meus Agendamentos | |
+
+---
+
+##  Tecnologias Utilizadas
 
 - React Native
-- JavaScript
 - Expo
 - React Navigation
-- AsyncStorage
+- Firebase(Firestore)
+- JavaScript
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 src/
 ├── screens/
-│   ├── client/
-│   └── admin/
-├── components/
-├── assets/
+│   ├── client/      # Telas voltadas ao cliente
+│   └── admin/       # Telas voltadas à administradora
+├── components/      # Componentes reutilizáveis
+├── assets/          # Imagens, ícones e fontes
 ├── App.js
 └── package.json
 ```
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
-### Instalar Dependências
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) instalado
+- App **Expo Go** instalado no celular (Android/iOS)
+
+### Passo a passo
 
 ```bash
+# Clone o repositório
+git clone https://github.com/joaopaulo-99/agenda-Flaviane-Nails.git
+
+# Instale as dependências
 npm install
-```
 
-### Executar o Projeto
-
-```bash
+# Inicie o projeto
 npx expo start
 ```
 
-### Executar no Celular
-
-1. Instale o aplicativo Expo Go.
-2. Execute o projeto.
-3. Escaneie o QR Code exibido no terminal ou navegador.
+Depois de iniciar, escaneie o QR Code exibido no terminal/navegador usando o aplicativo **Expo Go**.
 
 ---
 
 ## 💾 Armazenamento de Dados
 
-O aplicativo utiliza o AsyncStorage para armazenar localmente:
+Os dados são persistidos na nuvem através do **Firebase Firestore**, incluindo:
+- Informações de perfil do usuário
+- Dados dos agendamentos
 
-- Dados do perfil do usuário
-- Informações dos agendamentos
+Isso garante que as informações fiquem sincronizadas entre dispositivos e disponíveis em tempo real para clientes e administradora.
 
----
 
-## 🔒 Funcionalidades de Segurança
+## 🔒 Tratamento de Erros e Validações
 
-- Validação de campos obrigatórios
-- Controle de horários indisponíveis
-- Tratamento de erros durante o salvamento de dados
-
----
-
-## 🎓 Projeto Acadêmico
-
-Projeto desenvolvido para a disciplina de Desenvolvimento Mobile como requisito acadêmico.
+- Validação de campos obrigatórios nos formulários
+- Bloqueio de horários já ocupados
+- Tratamento de erros ao salvar/recuperar dados
 
 ---
+
+## 🎓 Sobre o Projeto
+
+Desenvolvido como projeto acadêmico para a disciplina de **Programação de dispositivos móveis para Android**.
