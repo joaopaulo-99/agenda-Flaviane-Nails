@@ -112,13 +112,13 @@ Desenvolvido como projeto acadêmico para a disciplina de **Programação de dis
 ---
 ## Evidências do Projeto
 
-<img src="docs/images/evidencia1.jpeg" width="300">
-<img src="docs/images/evidencia2.jpeg" width="300">
-<img src="docs/images/evidencia3.jpeg" width="300">
+![Evidência 1](docs/images/evidencia1.jpeg)
+![Evidência 2](docs/images/evidencia2.jpeg)
+![Evidência 3](docs/images/evidencia3.jpeg)
 
-<img src="docs/images/evidencia4-1.jpeg" width="300">
-<img src="docs/images/evidencia4-2.jpeg" width="300">
-<img src="docs/images/evidencia4-3.jpeg" width="300">
+![Evidência 4-1](docs/images/evidencia4-1.jpeg)
+![Evidência 4-2](docs/images/evidencia4-2.jpeg)
+![Evidência 4-3](docs/images/evidencia4-3.jpeg)
 
-<img src="docs/images/evidencia5.jpeg" width="300">
-<img src="docs/images/evidencia6.jpeg" width="300">
+![Evidência 5](docs/images/evidencia5.jpeg)
+![Evidência 6](docs/images/evidencia6.jpeg)
