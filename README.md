@@ -109,17 +109,16 @@ Isso garante que as informações fiquem sincronizadas entre dispositivos e disp
 
 Desenvolvido como projeto acadêmico para a disciplina de **Programação de dispositivos móveis para Android**.
 
-
 ---
 ## Evidências do Projeto
 
-<img src="docs/images/EVIDÊNCIA%201.jpeg" width="300">
-<img src="docs/images/EVIDÊNCIA%202.jpeg" width="300">
-<img src="docs/images/EVIDÊNCIA%203.jpeg" width="300">
+<img src="docs/images/evidencia1.jpeg" width="300">
+<img src="docs/images/evidencia2.jpeg" width="300">
+<img src="docs/images/evidencia3.jpeg" width="300">
 
-<img src="docs/images/EVIDÊNCIA%204-1.jpeg" width="300">
-<img src="docs/images/EVIDÊNCIA%204-2.jpeg" width="300">
-<img src="docs/images/EVIDÊNCIA%204-3.jpeg" width="300">
+<img src="docs/images/evidencia4-1.jpeg" width="300">
+<img src="docs/images/evidencia4-2.jpeg" width="300">
+<img src="docs/images/evidencia4-3.jpeg" width="300">
 
-<img src="docs/images/EVIDÊNCIA%205.jpeg" width="300">
-<img src="docs/images/EVIDÊNCIA%206.jpeg" width="300">
+<img src="docs/images/evidencia5.jpeg" width="300">
+<img src="docs/images/evidencia6.jpeg" width="300">
