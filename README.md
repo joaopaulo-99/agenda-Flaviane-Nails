@@ -27,19 +27,6 @@ Substituir o controle manual de horários (caderno, WhatsApp, anotações soltas
 
 ---
 
-##  Telas do Aplicativo
-
-| Cliente | Administrador |
-|---|---|
-| Login | Dashboard |
-| Tela Inicial | Gerenciamento de Agendamentos |
-| Meu Perfil | |
-| Serviços | |
-| Novo Agendamento | |
-| Meus Agendamentos | |
-
----
-
 ##  Tecnologias Utilizadas
 
 - React Native
@@ -95,13 +82,6 @@ Os dados são persistidos na nuvem através do **Firebase Firestore**, incluindo
 - Dados dos agendamentos
 
 Isso garante que as informações fiquem sincronizadas entre dispositivos e disponíveis em tempo real para clientes e administradora.
-
-
-## 🔒 Tratamento de Erros e Validações
-
-- Validação de campos obrigatórios nos formulários
-- Bloqueio de horários já ocupados
-- Tratamento de erros ao salvar/recuperar dados
 
 ---
 
