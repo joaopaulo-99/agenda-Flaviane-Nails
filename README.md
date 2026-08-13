@@ -75,7 +75,7 @@ Depois de iniciar, escaneie o QR Code exibido no terminal/navegador usando o apl
 
 ---
 
-## 💾 Armazenamento de Dados
+## Armazenamento de Dados
 
 Os dados são persistidos na nuvem através do **Firebase Firestore**, incluindo:
 - Informações de perfil do usuário
@@ -85,9 +85,15 @@ Isso garante que as informações fiquem sincronizadas entre dispositivos e disp
 
 ---
 
-## 🎓 Sobre o Projeto
+## Sobre o Projeto
 
 Desenvolvido como projeto acadêmico para a disciplina de **Programação de dispositivos móveis para Android**.
+
+## Carta de Autorização
+
+
+![cartaautorizacao](docs/images/carta-autorizacao.png)
+
 
 ---
 ## Evidências do Projeto
